@@ -106,7 +106,10 @@ const checkResult = () => {
     }
 }
 
-showResult = () => resultEl.innerText = value;
+showResult = () =>  {
+    const endValue =  value.toLocaleString();
+    resultEl.innerText = endValue;
+}
 
 resetValue = ()  => value = 0;
 reset = ()  => resultEl.innerText = '';
