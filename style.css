@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background: url('./seamless-pattern-mixed-letters-hebrew-600w-531600772.webp')top/cover no-repeat;
+}
+
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 58, 0.9);
+    padding: 200px;
+    border-radius: 5px;
+}
+
+.input {
+    font-size: 26px;
+    padding: 10px 20px;
+    color: orangered;
+}
+
+.result {
+    margin-top: 50px;
+    font-size: 28px;
+    color: darkblue;
+    text-decoration: underline;
+}
